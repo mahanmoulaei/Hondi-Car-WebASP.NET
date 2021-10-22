@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="HondiCar.WebASP.NET.Midterm.index" %>
+﻿<%--AUTHOR : MAHAN MOULAEI--%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="HondiCar.WebASP.NET.Midterm.index" %>
 
 <!DOCTYPE html>
 
@@ -32,7 +33,7 @@
         }
 
         .table-style {
-            width:710px;
+            width:780px;
         }
 
         .td-column {
@@ -54,7 +55,7 @@
                 <tr style="vertical-align:top;">
                     <td class="td-column">
                         <!--Car Informations Panel-->
-                        <asp:Panel ID="PanelCar" CssClass="round-border" BackColor="LightSkyBlue" runat="server" GroupingText="Car Informations" Height="102%" Width="100%">
+                        <asp:Panel ID="PanelCar" CssClass="round-border" BackColor="LightSkyBlue" runat="server" GroupingText="Car Informations" Height="100%" Width="100%">
                             <table class="car-information-table">
                                 <!--City-->
                                 <tr>
@@ -143,7 +144,7 @@
 
                     <td class="td-column">
                         <!--Price Resume Panel-->
-                        <asp:Panel ID="PanelPrice" CssClass="round-border" BackColor="#ff9900" runat="server" GroupingText="Price Resume"  Height="50%" Width="100%">
+                        <asp:Panel ID="PanelPrice" CssClass="round-border" BackColor="#ff9900" runat="server" GroupingText="Price Resume"  Height="250px" Width="100%">
                             <!--Price Literal Text-->
                             <asp:Literal ID="literalPrice" runat="server"></asp:Literal>
 
@@ -156,7 +157,7 @@
                         <br />
 
                         <!--Final Information Panel-->
-                        <asp:Panel ID="PanelFinal" CssClass="round-border" BackColor="#ff9900" runat="server" GroupingText="Final Information"  Height="45%" Width="100%">
+                        <asp:Panel ID="PanelFinal" CssClass="round-border" BackColor="#ff9900" runat="server" GroupingText="Final Information"  Height="225px" Width="100%">
                             <!--Final Information Literal Text-->
                             <asp:Literal ID="literalFinalInformation" runat="server"></asp:Literal>
                         </asp:Panel>
